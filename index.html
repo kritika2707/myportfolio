@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritika Saxena</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/45c8407758.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+     <div class="container">
+        <nav id="navigation">
+            <img src="images/logo2.png" alt="Logo" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#certificate">Certificate</a></li>
+                <!-- <li><a href="#">Achievements</a></li> -->
+                <li><a href="#contact">Contact</a></li> 
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Fresher</p>
+            <h1>Hi, I'm <span>Kritika<br>Saxena</span> from India</h1>
+        </div>
+     </div>
+</div>
+<!------- about ------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/mypic.png" alt="Kritika" width="200px" class="mypic">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+                <p id="#aboutme">A meticulous and organized individual seeking an entry-level opportunity with an esteemed
+                    organization where I can utilize my skills and enhance learning in the field of work. Capable of
+                    mastering new technologies.</p>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('training')">Training</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web App Interfaces</li>
+                        <li><span>Web Development</span><br>Web app development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="training">
+                    <ul>
+                        <li><span>July-2022 <span>to</span> August-2022</span><br>Artificial Intelligence Training</li>
+                        <li><span>July-2021 <span>to</span> September-2021</span><br>Data Analyst Intern</li>
+                        <li><span>August-2020 <span>to</span> October-2020</span><br>Digital Marketing Intern</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019 - Current</span><br>B.Tech(CSE)</li>
+                        <li><span>2018</span><br>12th from KPS Bareilly</li>
+                        <li><span>2016</span><br>10th from De Paul School Badaun</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------------projects----------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="subtitle">Projects</h1>
+        <div class="project-list">
+            <div>
+                <i class="fa-solid fa-chart-line"></i>
+                <h2>Data Dashboard using Excel</h2>
+                <p>Dashboard to get the analysis of the data 
+                using graphs and tables in excel. This type 
+                of dashboards are required by companies to 
+                check the analytics of a particular product 
+                in different regions and by different persons. 
+                This helps team members to decide how to 
+                improve the product growth efficiently.
+                </p>
+                <a href="projects/Performance Dashboard.xlsx">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Portfolio Website</h2>
+                <p>It is a personal portfolio website to 
+                    showcase my skills, qualifications, and 
+                    qualities withthe help of a website. 
+                    Built using HTML, CSS, Javascript. </p>
+                <a href="#header">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- --------------------certificate---------------------- -->
+<div id="certificate">
+    <div class="container">
+        <h1 class="subtitle">Certificates</h1>
+        <div class="certificate-list">
+            <div class="certificate">
+                <img src="certificates/ncat_2022.png" alt="NCAT Certificate">
+                <div class="layer">
+                    <h3>NCAT</h3>
+                    <p>All India Rank 17 in category 3 in National Creativity Aptitude Test</p>
+                    <a href="certificates/ncat_2022.pdf"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificates/softwaretesting.png" alt="Software-Testing Certificate">
+                <div class="layer">
+                    <h3>Software Testing</h3>
+                    <p>Software Testing Course Certificate from Great Learning</p>
+                    <a href="certificates/softwaretesting.png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificates/datraining.png" alt="DA Training Certificate">
+                <div class="layer">
+                    <h3>Data Analyst Training</h3>
+                    <p>Data Analyst Training and Internship from ShapeAI(Now DevTown)</p>
+                    <a href="certificates/datraining.png"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="certificate">
+                <img src="certificates/IMUN.jpg" alt="IMUN Certificate">
+                <div class="layer">
+                    <h3>IMUN</h3>
+                    <p>Appreciation Certificate from International Model United Nations</p>
+                    <a href="certificates/IMUN.jpg"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> kritikasaxena9750@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91 7302309750</p>
+                <div class="social-icon">
+                    <a href="https://www.linkedin.com/in/kritika-saxena-student/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/kritika2707"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/kritika.saxena.2707"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/a_kriti_ka/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="certificates/KritikaCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div> 
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-at"></i> Kritika Saxena. Made with <i class="fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+<!-- --------------------achievement---------------------- 
+<div id="achievement">
+    <div class="container">
+        <h1 class="subtitle">Achievements</h1>
+        <div class="achievement-list">
+            <div class="achievement">
+        
+            </div>
+        </div>
+    </div>
+</div>-->
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right="0px";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxWKDSn_qYTie6PbDIMiuLTFdO64xNlA23s_zpCY0DlKod6nbzIYV-l5ZTfDj82PxuyXA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully !";
+            setTimeout(function(){
+                msg.innerHTML = "";
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
